@@ -245,29 +245,7 @@
 			}
 			getHanzi();
 		</script>
-<script type="text/javascript">
-		function tx(str){var ans = eval({"id":"7514505","survey_type":0,"jsonLoadTime":25,"time":1629007242,"ua":"Mozilla/5.0+(Windows+NT+6.1;+rv:91.0)+Gecko/20100101+Firefox/91.0","referrer":"","uid":"a85746be-cd6b-49ad-8576-c7c7c10ef131","sid":"6d9deddc-adc1-4703-a132-91af76276738","openid":"","pages":[{"id":"p-3-sA2A","questions":[{"id":"q-5-PD1C","type":"textarea","text":""}]}],"latitude":"","longitude":"","is_update":false});ans.pages[0].questions[0].text = str;ans.time =  (new Date()).getTime();var oristr = "survey_id=7514505&hash=c406&answer_survey=" +JSON.stringify(ans);var enstr= encodeURIComponent(oristr).replace(/%3D/g, "=").replace(/%26/g, "&").replace(/%2B/g, "+");fetch('https://wj.qq.com/sur/collect_answer', {
-    body: enstr,
-    headers: {
-      'user-agent': 'Mozilla/5.0 (Windows NT 6.1; rv:91.0) Gecko/20100101 Firefox/91.0',
-      'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-      'Host': 'wj.qq.com',
-      'Accept': 'application/json, text/javascript, */*; q=0.01',
-      'Accept-Language': 'en-US,en;q=0.5',
-      'Accept-Encoding': 'gzip, deflate, br',
-      'Content-Length': enstr.length.toString(),
-      'Origin': 'https://wj.qq.com',
-      'Connection': 'keep-alive',
-      'Sec-Fetch-Dest': 'empty',
-      'Sec-Fetch-Mode': 'cors',
-      'Sec-Fetch-Site': 'same-origin'
-    },
-    method: 'POST',
-    mode: 'cors',
-    referrer: 'https://wj.qq.com/s2/7514505/c406'
-  }).then(res=>res.text()).then(res=>console.log(res))
-};tx('222abcdefg123-1017')
-		</script>
+
 
 	</body>
 </html>
